@@ -1,0 +1,25 @@
+SignUp : Post 
+Url: http://localhost:5000/api/auth/signup
+Response: 
+{
+    "message": "User created successfully",
+    "newUser": {
+        "id": 14,
+        "first_name": "Anjana",
+        "last_name": "Sharma",
+        "email": "ay@gmail.com",
+        "password": "$2a$12$ipNHvfkZp.chmvc.z7g4e.SstluORy3h4oN/h1xKDt24Kshal4nMq",
+        "reset_password_token": null,
+        "reset_password_expires": null
+    }
+}
+
+...................................................................................................................................................
+
+Login : Post
+Url: http://localhost:5000/api/auth/login
+Response: 
+{
+    "message": "Login successful",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTQsImlhdCI6MTcyNTg4ODgwNCwiZXhwIjoxNzI1OTc1MjA0fQ.WBeaZj51RWNzmpwBO8lMiYtqQm862KgQbB01pQSt32w"
+}
